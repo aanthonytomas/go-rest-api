@@ -49,13 +49,6 @@ func AddItem(db *sql.DB) http.HandlerFunc {
 			return
 		}
 
-		// Insert into database (you'll need to implement this function in models)
-		// if err := models.CreateItem(db, &item); err != nil {
-		// 	log.Printf("Error creating item: %v", err)
-		// 	http.Error(w, `{"error": "Failed to create item"}`, http.StatusInternalServerError)
-		// 	return
-		// }
-
 
 		w.WriteHeader(http.StatusCreated)
 		json.NewEncoder(w).Encode(item)
