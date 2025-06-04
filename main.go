@@ -6,10 +6,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/mux"
 	"go-rest-api/cache"
 	"go-rest-api/db"
 	"go-rest-api/handlers"
+
+	"github.com/gorilla/mux"
 )
 
 func main() {
