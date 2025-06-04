@@ -24,7 +24,7 @@ A high-performance RESTful API service built with Go, PostgreSQL, and Redis. Thi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/go-rest-api.git
+git clone https://github.com/aanthonytomas/go-rest-api.git
 cd go-rest-api
 ```
 
